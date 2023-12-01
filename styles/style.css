@@ -239,15 +239,14 @@ a, a:visited, a:hover, a:active {
 }
 
 .col-right {
-  flex: 1;
+  flex: 0.75;
 }
 .avatar {
 }
 .mask {
 }
 .avatar__bg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
+
+  zoom: 85%; 
+
 }
